@@ -1,6 +1,7 @@
 # movie-app
 
 Développez une application avec the movieDB ou autre API 
+
 ●	Implémenter une barre de recherche
 ●	Afficher les résultats
 ●	Afficher le détail d’un film ou produit…  (exemple utiliser le resolver d’Angular)
