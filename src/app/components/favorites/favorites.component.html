@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <h2>Mes Films Favoris</h2>
+  
+    <div *ngIf="favoriteMovies.length === 0" class="alert alert-info">
+      Aucun film n'a été ajouté aux favoris.
+    </div>
+  
+    <div *ngFor="let movie of favoriteMovies" class="card mt-2">
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.title }}</h5>
+        <p class="card-text">{{ movie.overview }}</p>
+        <p class="card-text">Année de sortie: {{ movie.release_date }}</p>
+        <p class="card-text">Note moyenne: {{ movie.vote_average }}</p>
+      </div>
+    </div>
+  </div>
+  

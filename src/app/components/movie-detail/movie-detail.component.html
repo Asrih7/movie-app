@@ -1,0 +1,11 @@
+<div class="container mt-5" *ngIf="movie">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">{{ movie.title }}</h2>
+        <p class="card-text">{{ movie.overview }}</p>
+        <p class="card-text">Année de sortie: {{ movie.release_date }}</p>
+        <p class="card-text">Note moyenne: {{ movie.vote_average }}</p>
+      </div>
+    </div>
+  </div>
+  
